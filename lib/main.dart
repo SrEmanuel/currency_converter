@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 
-const String request = "https://api.hgbrasil.com/finance?key=d8eb1404";
+const String request = "https://api.hgbrasil.com/finance";
 Uri requestUri = Uri.parse(request);
 
 void main() {
